@@ -1,0 +1,27 @@
+{
+  "name": "@0devco/getusermedia",
+  "description": "webrtc media api",
+  "version": "0.0.1",
+  "author": "0devco",
+  "main": "index.js",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "precommit-hook": "^3.0.0",
+    "tape": "^4.0.0",
+    "travis-multirunner": "^3.0.0",
+    "testling": "^1.7.1"
+  },
+  "keywords": [
+    "browser",
+    "getUserMedia",
+    "WebRTC"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "webrtc-adapter": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0devco/0RTC/media"
+  }
+}
