@@ -12,6 +12,7 @@ yarn add @0devco/getusermedia
 
 ```js
 import getUserMedia from '@0devco/getusermedia'
+
 getUserMedia({video: true, audio: false},function (err, stream) {
     // if the browser doesn't support user media
     // or the user says "no" the error gets passed
@@ -22,5 +23,4 @@ getUserMedia({video: true, audio: false},function (err, stream) {
        console.log('got a stream', stream);  
     }
 });
-
 ```
